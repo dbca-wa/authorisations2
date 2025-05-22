@@ -1,5 +1,4 @@
-# =================== BUILD FRONTEND ===================
-FROM ubuntu:24.04 AS builder_frontend
+FROM ubuntu:24.04 AS ubuntu_2404
 ENV DEBIAN_FRONTEND=noninteractive
 
 # # Install system upgrades & dependencies
