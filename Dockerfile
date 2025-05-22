@@ -1,4 +1,4 @@
-FROM ubuntu:24.04 AS ubuntu_2404
+FROM ubuntu:24.04 as builder_base_ub
 ENV DEBIAN_FRONTEND=noninteractive
 
 # # Install system upgrades & dependencies
