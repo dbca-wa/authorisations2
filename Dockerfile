@@ -1,5 +1,6 @@
 # =================== BUILD FRONTEND ===================
 FROM ubuntu:24.04 AS builder_frontend
+ENV DEBIAN_FRONTEND=noninteractive
 
 # # Install system upgrades & dependencies
 # RUN apt-get clean
